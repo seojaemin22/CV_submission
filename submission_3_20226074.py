@@ -12,7 +12,7 @@ def submission_3_20226074(yaml_path, output_json_path):
     ###### can be modified (Only Hyperparameters, which can be modified in demo) ######
 
     data_config = load_yaml_config(yaml_path)
-    model_name = 'yolo11n'
+    model_name = 'yolo12n'
     ex_dict = {
         'mosaic': 0.7,  # 1.0
         'mixup': 0.4,  # 0.5
